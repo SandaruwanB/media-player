@@ -16,3 +16,8 @@ const mainWindow = async ()=>{
 app.whenReady().then(()=>{
     mainWindow();
 });
+
+
+app.on('window-all-closed', ()=>{
+    app.quit();
+})
