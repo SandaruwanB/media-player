@@ -1,0 +1,21 @@
+{
+  "name": "meadiaplayer",
+  "version": "1.0.0",
+  "description": "meadia player created with electronjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [
+    "electron",
+    "meadia",
+    "player",
+    "meadia player"
+  ],
+  "author": "SandaruwanB",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^26.2.0"
+  }
+}
